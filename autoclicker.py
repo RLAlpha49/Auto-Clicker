@@ -2,8 +2,8 @@ import keyboard
 import time
 import mouse
 
-###############################################################
 '''
+###############################################################
 DISCLAIMER: If you choose to set the CPS to a higher value than
 my 1000 limit, then you need to get rid of the "cps = cps_speed()"
 function in the main program. As well as take out the "cps"
@@ -15,8 +15,8 @@ desired cps. Note that it needs to be in seconds. For example,
 I Chose the limit of 1000 because, at some point, programs just
 don't accept more clicks. Websites especially, lag or freeze a lot.
 when going fast.
-'''
 ###############################################################
+'''
 
 # Initialize variables
 auto_clicking = False
