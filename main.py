@@ -7,7 +7,7 @@ the custom event loop for auto-clicking.
 
 import keyboard
 from constants import AUTO_CLICK_KEY, TOGGLE_LISTENER_KEY
-from events.event_loop import on_press, custom_event_loop
+from events.event_loop import  custom_event_loop, on_press
 from events.user_input import get_user_cps
 from utils.cps_calculator import calculate_cps_speed
 
