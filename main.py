@@ -1,15 +1,14 @@
 """
-This module is the main entry point for the auto-clicker program. It gets the 
-desired clicks per second (CPS) speed from the user, calculates the time interval 
-between clicks based on the desired CPS, and starts the key press listener and 
+This module is the main entry point for the auto-clicker program. It gets the
+desired clicks per second (CPS) speed from the user, calculates the time interval
+between clicks based on the desired CPS, and starts the key press listener and
 the custom event loop for auto-clicking.
 """
 
 import keyboard
-
 from constants import AUTO_CLICK_KEY, TOGGLE_LISTENER_KEY
-from events.user_input import get_user_cps
 from events.event_loop import on_press, custom_event_loop
+from events.user_input import get_user_cps
 from utils.cps_calculator import calculate_cps_speed
 
 if __name__ == "__main__":

@@ -1,6 +1,6 @@
 """
-This module defines an enumeration for preset clicks per second (CPS) options. 
-The user can choose from these preset options when setting the CPS speed for 
+This module defines an enumeration for preset clicks per second (CPS) options.
+The user can choose from these preset options when setting the CPS speed for
 the auto-clicker.
 """
 

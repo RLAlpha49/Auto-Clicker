@@ -1,6 +1,6 @@
 """
-This module contains a function to get the desired clicks per second (CPS) speed 
-from the user. The user can choose from a list of preset options or enter a custom 
+This module contains a function to get the desired clicks per second (CPS) speed
+from the user. The user can choose from a list of preset options or enter a custom
 CPS speed.
 """
 

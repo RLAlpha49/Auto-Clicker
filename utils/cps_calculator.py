@@ -1,5 +1,5 @@
 """
-This module contains a function to calculate the time interval between clicks 
+This module contains a function to calculate the time interval between clicks
 based on the desired clicks per second (CPS) rate provided by the user.
 """
 

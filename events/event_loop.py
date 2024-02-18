@@ -5,9 +5,9 @@ on these events.
 """
 
 import time
+
 import keyboard
 import mouse
-
 from constants import AUTO_CLICK_KEY, TOGGLE_LISTENER_KEY
 
 # Initialize variables
